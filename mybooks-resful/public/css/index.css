@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    background-color: lightgreen;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.content {
+    background-color: lightblue;
+}
+
+.content table {
+    width: 100%;
+    text-align: center;
+    border-right: 1px solid orange;
+    border-bottom: 1px solid orange;
+}
+
+.content td,
+.content th {
+    border-left: 1px solid orange;
+    border-top: 1px solid orange;
+    height: 40px;
+    line-height: 40px;
+}
+
+.form {
+    display: none;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form input {
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    background: #fff;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form input:-webkit-autofill {
+    -webkit-text-fill-color: #000 !important;
+    -webkit-text-fill-color: #ffffff;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.form button {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin: 30px 250px;
+}
+
+
+/* 天气 */
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+}
